@@ -20,7 +20,7 @@ MODEL_CLASSES = {
 }
 
 MODEL_PATH_MAP = {
-    "xlmr": "https://huggingface.co/xlm-roberta-base",
+    "xlmr": "xlm-roberta-base",
     "phobert": "vinai/phobert-base",
 }
 
