@@ -14,7 +14,7 @@ python3 /content/JointSDIC/main.py --token_level syllable-level \
                   --do_eval \
                   --save_steps 140 \
                   --logging_steps 140 \
-                  --num_train_epochs 50 \
+                  --num_train_epochs 5 \
                   --tuning_metric mean_intent_slot \
                   --use_crf \
                   --gpu_id 0 \
