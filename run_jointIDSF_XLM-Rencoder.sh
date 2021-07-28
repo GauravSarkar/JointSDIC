@@ -1,5 +1,5 @@
 #As we initialize JointIDSF from JointBERT, user need to train a base model JointBERT first
-./run_jointBERT-CRF_XLM-Rencoder.sh
+bash /content/JointSDIC/run_jointBERT-CRF_XLM-Rencoder.sh
 #Train JointIDSF
 export lr=3e-5
 export c=0.25
